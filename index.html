@@ -1,0 +1,307 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>
+            Price Calculator
+        </title>
+    </head>
+
+    <body>
+        <button id="pop-up" style="height: 50px; width: 100px;"> Calculate Price</button>
+    <div id='calculator'>
+        <div id='top-head' class='head-text'>
+            <h1> Price Calculator </h1>
+        </div>
+        <div class="form-div" >
+
+            <!--Radio button form-->
+            <form class="sheet-form" style="flex-wrap: nowrap;" action="#">
+                <label> 
+                <input type ="radio" name="sheets" id="sheet-tick1">
+                <div class="tick-box">
+                <p class="small-txt"> A4 sheets</p>
+                <div id="sheet-image-box1" class="img-txt-box">
+                <img id="A4-sheet" class="sheet-type" src ="https://www.printstop.co.in/images/product_icon/Size_fullcolour.png">
+                </div>
+                </div>
+                </label>
+            
+                <label> 
+                    <input type ="radio" name="sheets" id="sheet-tick2">
+                    <div class="tick-box">
+                    <p class="small-txt"> Letter Sheets</p>
+                    <div id="sheet-image-box2" class="img-txt-box">
+                    <img  id="letter-sheet" class="sheet-type" src ="https://www.printstop.co.in/images/product_icon/Letter_Colour.png">
+                    </div>    
+                    </div>
+                    </label>
+            </form>
+        </div>
+
+        <div  id="amt-section" >
+
+            <img class="arrows" id="left-arrow" src = "arrow-88-64.ico">
+
+            <!--Radio button form-->
+            <form id="amount-form" style="justify-content: space-between" action="#">
+                <label> 
+                <input type ="radio" name="amount" id="amt-tick1">
+                <div class="tick-box2">
+                <div class="img-txt-box">
+                <div class="round-selector" id="rs1">
+                    <p class="amt-txt"> 50</p>
+                </div>
+                </div>
+                <p class="small-txt"> 300$</p>
+                </div>
+                </label>
+            
+                <label> 
+                    <input type ="radio" name="amount" id="amt-tick2">
+                    <div class="tick-box2">
+                    
+                    <div class="img-txt-box">
+                        <div class="round-selector" id="rs2">
+                            <p class="amt-txt"> 100</p>
+                        </div>
+                    </div> 
+                    <p class="small-txt"> 500$ </p>   
+                    </div>
+                    </label>
+
+                    <label> 
+                        <input type ="radio" name="amount" id="amt-tick3">
+                        <div class="tick-box2">
+                        
+                        <div  class="img-txt-box">
+                            <div class="round-selector" id="rs3">
+                                <p class="amt-txt"> 200</p>
+                            </div>
+                        </div>
+                        <p class="small-txt"> 950$</p>
+                        </div>
+                    </label>
+
+                    <label> 
+                            <input type ="radio" name="amount" id="amt-tick4">
+                            <div class="tick-box2">
+                            
+                            <div  class="img-txt-box">
+                                <div class="round-selector" id="rs4">
+                                    <p class="amt-txt"> 500</p>
+                                </div>
+                            </div>
+                            <p class="small-txt"> 1,750$</p>
+                            </div>
+                    </label>  
+                    
+                    <label> 
+                        <input type ="radio" name="amount" id="amt-tick5">
+                        <div class="tick-box2">
+                        
+                        <div  class="img-txt-box">
+                            <div class="round-selector" id="rs5">
+                                <p class="amt-txt"> 1000</p>
+                            </div>
+                        </div>
+                        <p class="small-txt"> 3,800$</p>
+                        </div>
+                </label> 
+
+                <label> 
+                    <input type ="radio" name="amount" id="amt-tick6">
+                    <div class="tick-box2">
+                    
+                    <div  class="img-txt-box">
+                        <div class="round-selector" id="rs6">
+                            <p class="amt-txt"> 2000</p>
+                        </div>
+                    </div>
+                    <p class="small-txt"> 7,500$</p>
+                    </div>
+            </label>
+
+            <label> 
+                <input type ="radio" name="amount" id="amt-tick7">
+                <div class="tick-box2">
+                
+                <div  class="img-txt-box">
+                    <div class="round-selector" id="rs7">
+                        <p class="amt-txt"> 4000</p>
+                    </div>
+                </div>
+                <p class="small-txt"> 10,000$</p>
+                </div>
+        </label>
+
+        <label> 
+            <input type ="radio" name="amount" id="amt-tick8">
+            <div class="tick-box2">
+            
+            <div id="amt-box8" class="img-txt-box">
+                <div class="round-selector" id="rs8">
+                    <p class="amt-txt"> 6000</p>
+                </div>
+            </div>
+            <p class="small-txt"> 12,000$</p>
+            </div>
+    </label>
+ 
+    <label> 
+        <input type ="radio" name="amount" id="amt-tick9">
+        <div class="tick-box2">
+        
+        <div id="amt-box9" class="img-txt-box">
+            <div class="round-selector" id="rs9">
+                <p class="amt-txt"> 10000</p>
+            </div>
+        </div>
+        <p class="small-txt">15,000$</p>
+        </div>
+</label>
+
+                
+                
+                
+                
+
+                
+            </form>
+            <img class="arrows" id="right-arrow" src = "arrow-88-64.ico">
+        </div>
+        <h2 style="color: black; margin-bottom: -20px;"> Paper</h2>
+        <div class="form-div" >
+
+            <!--Radio button form-->
+            <form class="sheet-form" action="#">
+                <label> 
+                <input type ="radio" name="paper" id="paper-tick1">
+                <div class="tick-box">
+                <p class="small-txt"> Standard</p>
+                <div id="paper-image-box1" class="img-txt-box">
+                <img id="paper1" class="paper-type" src ="https://www.printstop.co.in/images/product_icon/Paper_Primium.png">
+                <p class="small-txt" id="standard">0.00</p>
+                </div>
+                </div>
+                </label>
+            
+                <label> 
+                    <input type ="radio" name="paper" id="paper-tick2">
+                    <div class="tick-box">
+                    <p class="small-txt"> Bond</p>
+                    <div id="paper-image-box2" class="img-txt-box">
+                    <img  id="paper2" class="paper-type" src ="https://www.printstop.co.in/images/product_icon/Paper_bond.png">
+                    <p class="small-txt" id="bond">150.00</p>
+                </div>    
+                    </div>
+                    </label>
+
+                    <label> 
+                        <input type ="radio" name="paper" id="paper-tick3">
+                        <div class="tick-box">
+                        <p class="small-txt"> Textured</p>
+                        <div id="paper-image-box3" class="img-txt-box">
+                        <img  id="paper3" class="paper-type" src ="https://www.printstop.co.in/images/product_icon/Paper_textured.png">
+                        <p class="small-txt" id="textured">150.00</p>    
+                    </div>    
+                        </div>
+                        </label>
+
+                        <label> 
+                            <input type ="radio" name="paper" id="paper-tick4">
+                            <div class="tick-box">
+                            <p class="small-txt"> Recycled</p>
+                            <div id="paper-image-box4" class="img-txt-box">
+                            <img  id="paper4" class="paper-type" src ="https://www.printstop.co.in/images/product_icon/Paper_Recycled98.png">
+                            <p class="small-txt" id="recycled">100.00</p>
+                        </div>    
+                            </div>
+                            </label>
+            </form>
+        </div>
+
+        <h2 style="color: black; margin-bottom: -20px;"> Binding</h2>
+        <div class="form-div" >
+
+            <!--Radio button form-->
+            <form class="sheet-form" style="flex-wrap: nowrap;" action="#">
+                <label> 
+                <input type ="radio" name="sheets" id="binding-tick1">
+                <div class="tick-box">
+                <p class="small-txt"> Loose Sheets</p>
+                <div id="binding-image-box1" class="img-txt-box">
+                <img id="binding1" class="sheet-type" src ="https://www.printstop.co.in/images/product_icon/Loose-sheets.jpg">
+                <p class="small-txt">0.00</p>
+            </div>
+                </div>
+                </label>
+            
+                <label> 
+                    <input type ="radio" name="sheets" id="binding-tick2">
+                    <div class="tick-box">
+                    <p class="small-txt"> Pad Binding</p>
+                    <div id="binding-image-box2" class="img-txt-box">
+                    <img  id="binding2" class="sheet-type" src ="https://www.printstop.co.in/images/product_icon/Pad-Binding.jpg">
+                    <p class="small-txt" id="padbinding"> --</p>
+                </div>    
+                    </div>
+                    </label>
+            </form>
+        </div>
+
+        <h2  id="production"> Production speed</h2>
+        <div id="shipping">
+        <img id="shipping-img" src = "https://www.printstop.co.in/images/product_icon/3-days11.png">
+        </div>
+
+        <p class="small-txt"> Get custom design made</p>
+        <div id="custom-img-div"></div>
+        <form>
+            <select name="custom-design" id="select-form">
+                <option  id="yes" value= 1>Yes</option>
+                <option  id="no" value= 0 selected>No</option>
+                </select>
+        </form>
+        <div id="custom-design-div">
+        <img src="https://www.printstop.co.in/images/product_icon/customdesign44.png">
+        <p class="small-txt"> 900</p>
+    </div>
+
+        <div class="total-div">
+            <p class="total"> Subtotal: </p>
+        <p id="sub-total" class="total">
+               
+        </p>
+    </div>
+            
+        <form id="country-form">
+            <label style="font-size: 1.2rem;"> Country </label>
+            <select name="Country" id="country">
+                <option  value="USA">USA</option>
+                <option  value="India" selected>India</option>
+                <option  value="China">China</option>
+                </select>
+                <label style="font-size: 1.2rem;"> Shipping Price </label>
+                <select name="Country" id="shipping-form">
+                    <option  value=0 selected >Select Shipping</option>
+                    <option  value=1 >Standard Shipping 5,000/-</option>
+                    <option  value=2>Fast Delivery 10,000/-</option>
+                    </select>
+        </form>
+
+        <div class="total-div">
+            <p class="total"> Total: </p>
+        <p id="total" class="total">
+
+        </p>
+    </div>
+
+    <form id="mail-form">
+        <input type="email" placeholder="abc@gmail.com">
+        <button id="send-quote"> EMAIL QUOTE</button>
+    </form>
+    </div>   
+    
+        <script type = "text/javascript" src="script.js"> </script>
+    </body>
+</html>
